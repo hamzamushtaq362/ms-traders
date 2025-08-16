@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Optional npm debug log file
+npm-debug.log*
+
+# Yarn v2 PnP
+.pnp/
+.pnp.js
+
+# dotenv environment variables file
+.env
+
+# IDE or Editor specific files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jest coverage output
+coverage/
+
+# Local Netlify folder
+.netlify
