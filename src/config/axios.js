@@ -4,5 +4,8 @@ export const axiosi = axios.create({
   withCredentials: true,
   // baseURL: "http://localhost:8000",
   // baseURL: "https://ms-traders-b.vercel.app",
-  baseURL: process.env.REACT_APP_BASE_URL,
+  baseURL:
+    process.env.REACT_APP_BASE_URL === "local"
+      ? "http://localhost:8000"
+      : "https://ms-traders-b.vercel.app",
 });
